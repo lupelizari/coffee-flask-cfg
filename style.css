@@ -27,6 +27,13 @@ footer {
 
 /* Main Styles */
 
+.background-photo {
+  box-sizing: content-box;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.7;
+}
+
 .main-header {
   position: absolute;
   top: 50%;
@@ -35,7 +42,7 @@ footer {
   text-align: center;
   font-size: 1.25em;
   padding: 100px;
-  color: white;
+  color: grey;
 }
 
 /* has to be centered, sitting at bottom of the image instead of own container. */
