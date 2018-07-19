@@ -31,7 +31,9 @@ footer {
   box-sizing: content-box;
   width: 100%;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.8;
+  position: static;
+  bottom: 0;
 }
 
 .main-header {
@@ -42,13 +44,16 @@ footer {
   text-align: center;
   font-size: 1.25em;
   padding: 100px;
-  color: grey;
+  color: white;
 }
 
-/* has to be centered, sitting at bottom of the image instead of own container. */
 .main-nav {
   background-color: grey;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .main-nav a {
