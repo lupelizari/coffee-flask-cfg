@@ -71,4 +71,11 @@ footer {
   color: grey;
 }
 
+.img-1
+.img-2
+.img-3 {
+  width: 100%;
+  height: 0;
+}
+
 /* media queries & responsive design properties */
