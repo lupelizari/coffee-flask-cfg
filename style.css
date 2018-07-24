@@ -6,13 +6,6 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* img is too large, needs resizing */
-img {
-  max-width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
-
 main {
   padding: 70px;
 }
@@ -26,6 +19,11 @@ footer {
 }
 
 /* Main Styles */
+
+.content-image {
+  width: 100%;
+  height: 50%;
+}
 
 .background-photo {
   box-sizing: content-box;
@@ -71,11 +69,10 @@ footer {
   color: grey;
 }
 
-.img-1
-.img-2
-.img-3 {
-  width: 100%;
-  height: 0;
-}
-
 /* media queries & responsive design properties */
+
+@media(max-width: 767px) {
+  .content-image {
+    height: 100%;
+  }
+}
