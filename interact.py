@@ -11,20 +11,20 @@ def menu():
     return render_template('menu.html')
 
 def get_userName():
-	user_name = request.form['name']("What is your Name? ... ")
+	user_name = request.form['name']
 	return user_name
 
-def greet_user(name):
-    print "Welcome, " + user_name + "!"
-	#print welcome <username>
+# def greet_user(name):
+#     print "Welcome, " + user_name + "!"
+# 	#print welcome <username>
 
 def get_coffee():
-    user_coffee = raw_input("What is your favourite coffee?")
+    user_coffee = request.form['coffee']
     return user_coffee
     #ask user to input favourite coffee type
 
 def get_pastry():
-    user_pastry = raw_input("What is your favourite pastry?")
+    user_pastry = request.form['pastry']
     return user_pastry
     #ask user to input favourite pastry
 
